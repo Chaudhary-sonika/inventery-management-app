@@ -1,0 +1,15 @@
+.department_div{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.card_div{
+    width: 25%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+border: none;
+border-radius: 0.5rem;
+background-color: #f3f4f6;
+padding: 0.5rem;
+}

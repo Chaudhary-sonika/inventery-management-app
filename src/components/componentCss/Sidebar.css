@@ -1,0 +1,23 @@
+.sidebar_div{
+    display: flex;
+    flex-direction: row;
+}
+.link_div{
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding-top: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin-bottom: 3rem;
+}
+.outlet_div{
+    width: 75%;
+    margin-top: 3rem;
+}

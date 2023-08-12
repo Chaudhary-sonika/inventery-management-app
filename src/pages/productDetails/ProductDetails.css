@@ -1,0 +1,13 @@
+.image_tag{
+    width: 50%;
+}
+.prod_head{
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 2rem;
+}
+.prod_card_div{
+    text-align: left;
+    margin-left: 2rem;
+    
+}

@@ -1,0 +1,14 @@
+.productpage_div{
+    text-align: left;
+    width: 85%;
+    margin-left: 5%;
+}
+.product_head_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.image_tag{
+    width: 5rem;
+}

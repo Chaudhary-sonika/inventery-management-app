@@ -1,0 +1,25 @@
+.dashboard_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.dashboard_card{
+box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+border: none;
+border-radius: 0.5rem;
+background-color: #f3f4f6;
+padding: 0.5rem;
+width: 25%;
+}
+.ts_head{
+    color: green;
+}
+.td_head{
+    color: orange;
+}
+.tdl_head{
+    color: red;
+}
