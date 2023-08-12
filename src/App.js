@@ -5,6 +5,7 @@ import { Dashboard } from "./pages/dashboard/Dashboard";
 import { Department } from "./pages/department/Department";
 import { Product } from "./pages/product/Product";
 import { ProductDetails } from "./pages/productDetails/ProductDetails";
+import { ProdManagement } from "./pages/prodmanagement/ProdManagement";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             path="/productdetails/:productId"
             element={<ProductDetails />}
           />
+          <Route path="/prodmanage" element={<ProdManagement />} />
         </Route>
       </Routes>
     </div>

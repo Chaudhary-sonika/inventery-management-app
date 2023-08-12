@@ -34,7 +34,7 @@ export const Product = ()=>{
                 </select>
             </div>
             <div>
-                <button>New</button>
+                <button onClick={()=>navigate("/prodmanage")}>New</button>
             </div>
             </div>
             <div>
