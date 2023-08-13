@@ -4,15 +4,15 @@ export const ProdManagement =()=>{
         <div>
             <h3>Add New Product</h3>
             <form className="form_tag">
-                <label>Department: <input/></label>
-                <label>Name: <input/></label>
-                <label>Description: <input/></label>
-                <label>Price: <input/></label>
-                <label>Stock: <input/></label>
-                <label>SKU: <input/></label>
-                <label>Supplier: <input/></label>
-                <label>Delivered: <input/></label>
-                <label>Image URL: <input/></label>
+                <label>Department: </label><input/>
+                <label>Name: </label><input/>
+                <label>Description: </label><input/>
+                <label>Price: </label><input/>
+                <label>Stock: </label><input/>
+                <label>SKU: </label><input/>
+                <label>Supplier: </label><input/>
+                <label>Delivered: </label><input/>
+                <label>Image URL: </label><input/>
                 <button>Add Product</button>
             </form>
         </div>
