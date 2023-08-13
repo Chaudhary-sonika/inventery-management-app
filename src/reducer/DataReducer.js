@@ -13,7 +13,23 @@ export const DataReducer = (state, action) => {
     case "option_filter":
       return {
         ...state,
-        Data: state.Data.sort((a, b) => a.action.payload - b.action.payload),
+        Data: state.Data.sort((a, b) =>
+          action.payload === "name"
+            ? a.name - b.name
+            : action.payload === "price"
+            ? a.price - b.price
+            : a.stock - b.stock
+        ),
+      };
+    case "option_filter_dept":
+      return {
+        ...state,
+        Data:
+          action.payload === "all"
+            ? [...inventoryData]
+            : [...inventoryData].filter(
+                (item) => item.department === action.payload
+              ),
       };
     default:
       return state;

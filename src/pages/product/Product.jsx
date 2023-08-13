@@ -6,16 +6,21 @@ export const Product = ()=>{
     const {dataState, dispatch} = useData();
     const navigate = useNavigate();
     const [inputValue, setInputValue] = useState();
+    const [deptInput, setDeptInput] = useState();
     return(
         <div className="productpage_div">
             <div className="product_head_bar">
             <h2>Products</h2>
             <div>
-                <select>
-                    <option>All</option>
-                    <option>Kitchen</option>
-                    <option>Clothing</option>
-                    <option>Toys</option>
+                <select value={deptInput}
+            onChange={(e) => {
+              dispatch({ type: "option_filter_dept", payload: e.target.value });
+              setDeptInput(e.target.value);
+            }}>
+                    <option value="all">All</option>
+                    <option value="Kitchen">Kitchen</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Toys">Toys</option>
                 </select>
             </div>
             <div>
